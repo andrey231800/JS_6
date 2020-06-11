@@ -1,0 +1,59 @@
+.calcule{
+    width: 286px;
+    background: brown;
+    margin: 0 auto;
+    margin-top: 9%;
+}
+.calcule_grid{
+    margin: 0 auto;
+    padding-top: 50px;
+}
+button{
+    padding: 5px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.arifm .cyfry{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 4px;
+    padding-top: 21px;
+    padding-bottom: 21px;
+}
+
+.arifm button{
+    width: 100%;
+    background: #a6ff11;
+    font-size: 16px;
+}
+
+.screen{
+    border: 1px solid black;
+    height: 50px;
+    background: #999999;
+    outline: none;
+    text-align: right;
+}
+.calcule_grid{
+    width: 250px;
+
+}
+
+.ravno{
+    grid-column: 1/3;
+    background-color: #5b2381 !important;
+}
+
+.clear{
+    grid-column: 5/3;
+    background: #fc1 !important;
+}
+input{
+    width: 97%;
+    height: 88%;
+}
+.str{
+    background: #ff11ce !important;
+}
